@@ -3,7 +3,7 @@
 Tap the letters of the alphabet to jump from section to section to easily find the content you are looking for. 
 Helpful for TableViews with a large amount of data. 
 
-- Currently main functionality added. 
+- Only the main functionality was created. 
 
 - I will be adding more features soon:
     - Add a custom color to the selected letter. 

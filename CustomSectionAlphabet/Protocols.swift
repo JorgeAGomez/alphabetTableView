@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol AlphabetDelegate {
+  func jumpToSection(index: Int)
+}

@@ -6,6 +6,7 @@
 //  From Brian --> 'Lets build that app' Youtube Channel.
 
 import Foundation
+import UIKit
 
 extension NSMutableAttributedString {
     

@@ -12,6 +12,23 @@
 		C33C63BD2067BCC2004D88B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33C63BB2067BCC2004D88B9 /* Main.storyboard */; };
 		C33C63BF2067BCC2004D88B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33C63BE2067BCC2004D88B9 /* Assets.xcassets */; };
 		C33C63C22067BCC2004D88B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33C63C02067BCC2004D88B9 /* LaunchScreen.storyboard */; };
+		C33C63CA2067C042004D88B9 /* AlphabetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33C63C92067C042004D88B9 /* AlphabetView.xib */; };
+		C33C63CC2067C41E004D88B9 /* AlphabetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63CB2067C41E004D88B9 /* AlphabetView.swift */; };
+		C33C63DA2067C852004D88B9 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63CE2067C851004D88B9 /* UIViewController+Helper.swift */; };
+		C33C63DB2067C852004D88B9 /* String+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63CF2067C851004D88B9 /* String+Helper.swift */; };
+		C33C63DC2067C852004D88B9 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D02067C851004D88B9 /* NSMutableAttributedString+Helper.swift */; };
+		C33C63DD2067C852004D88B9 /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D12067C851004D88B9 /* UIButton+Helper.swift */; };
+		C33C63DE2067C852004D88B9 /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D22067C851004D88B9 /* UIImage+Helper.swift */; };
+		C33C63DF2067C852004D88B9 /* UIImageView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D32067C851004D88B9 /* UIImageView+Helper.swift */; };
+		C33C63E02067C852004D88B9 /* UILabel+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D42067C852004D88B9 /* UILabel+Helper.swift */; };
+		C33C63E12067C852004D88B9 /* UIApplication+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D52067C852004D88B9 /* UIApplication+Helper.swift */; };
+		C33C63E22067C852004D88B9 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D62067C852004D88B9 /* UIColor+Helper.swift */; };
+		C33C63E32067C852004D88B9 /* UIDevice+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D72067C852004D88B9 /* UIDevice+Helper.swift */; };
+		C33C63E42067C852004D88B9 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D82067C852004D88B9 /* UIView+Helper.swift */; };
+		C33C63E52067C852004D88B9 /* NSAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63D92067C852004D88B9 /* NSAttributedString+Helper.swift */; };
+		C33C63E72067D969004D88B9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63E62067D969004D88B9 /* Protocols.swift */; };
+		C33C63E92067DC66004D88B9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33C63E82067DC66004D88B9 /* HeaderView.xib */; };
+		C33C63EB2067DCD0004D88B9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33C63EA2067DCD0004D88B9 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +39,23 @@
 		C33C63BE2067BCC2004D88B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33C63C12067BCC2004D88B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33C63C32067BCC2004D88B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33C63C92067C042004D88B9 /* AlphabetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlphabetView.xib; sourceTree = "<group>"; };
+		C33C63CB2067C41E004D88B9 /* AlphabetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetView.swift; sourceTree = "<group>"; };
+		C33C63CE2067C851004D88B9 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		C33C63CF2067C851004D88B9 /* String+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D02067C851004D88B9 /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D12067C851004D88B9 /* UIButton+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D22067C851004D88B9 /* UIImage+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D32067C851004D88B9 /* UIImageView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D42067C852004D88B9 /* UILabel+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D52067C852004D88B9 /* UIApplication+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D62067C852004D88B9 /* UIColor+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D72067C852004D88B9 /* UIDevice+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D82067C852004D88B9 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		C33C63D92067C852004D88B9 /* NSAttributedString+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Helper.swift"; sourceTree = "<group>"; };
+		C33C63E62067D969004D88B9 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		C33C63E82067DC66004D88B9 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		C33C63EA2067DCD0004D88B9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +88,39 @@
 		C33C63B62067BCC1004D88B9 /* CustomSectionAlphabet */ = {
 			isa = PBXGroup;
 			children = (
+				C33C63CD2067C846004D88B9 /* Extensions */,
+				C33C63E62067D969004D88B9 /* Protocols.swift */,
+				C33C63CB2067C41E004D88B9 /* AlphabetView.swift */,
 				C33C63B72067BCC1004D88B9 /* AppDelegate.swift */,
 				C33C63B92067BCC2004D88B9 /* ViewController.swift */,
 				C33C63BB2067BCC2004D88B9 /* Main.storyboard */,
+				C33C63C92067C042004D88B9 /* AlphabetView.xib */,
 				C33C63BE2067BCC2004D88B9 /* Assets.xcassets */,
 				C33C63C02067BCC2004D88B9 /* LaunchScreen.storyboard */,
 				C33C63C32067BCC2004D88B9 /* Info.plist */,
+				C33C63E82067DC66004D88B9 /* HeaderView.xib */,
+				C33C63EA2067DCD0004D88B9 /* HeaderView.swift */,
 			);
 			path = CustomSectionAlphabet;
+			sourceTree = "<group>";
+		};
+		C33C63CD2067C846004D88B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C33C63D92067C852004D88B9 /* NSAttributedString+Helper.swift */,
+				C33C63D02067C851004D88B9 /* NSMutableAttributedString+Helper.swift */,
+				C33C63CF2067C851004D88B9 /* String+Helper.swift */,
+				C33C63D52067C852004D88B9 /* UIApplication+Helper.swift */,
+				C33C63D12067C851004D88B9 /* UIButton+Helper.swift */,
+				C33C63D62067C852004D88B9 /* UIColor+Helper.swift */,
+				C33C63D72067C852004D88B9 /* UIDevice+Helper.swift */,
+				C33C63D22067C851004D88B9 /* UIImage+Helper.swift */,
+				C33C63D32067C851004D88B9 /* UIImageView+Helper.swift */,
+				C33C63D42067C852004D88B9 /* UILabel+Helper.swift */,
+				C33C63D82067C852004D88B9 /* UIView+Helper.swift */,
+				C33C63CE2067C851004D88B9 /* UIViewController+Helper.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33C63C22067BCC2004D88B9 /* LaunchScreen.storyboard in Resources */,
+				C33C63E92067DC66004D88B9 /* HeaderView.xib in Resources */,
 				C33C63BF2067BCC2004D88B9 /* Assets.xcassets in Resources */,
+				C33C63CA2067C042004D88B9 /* AlphabetView.xib in Resources */,
 				C33C63BD2067BCC2004D88B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +197,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33C63E42067C852004D88B9 /* UIView+Helper.swift in Sources */,
+				C33C63E02067C852004D88B9 /* UILabel+Helper.swift in Sources */,
+				C33C63DD2067C852004D88B9 /* UIButton+Helper.swift in Sources */,
+				C33C63DA2067C852004D88B9 /* UIViewController+Helper.swift in Sources */,
+				C33C63E32067C852004D88B9 /* UIDevice+Helper.swift in Sources */,
 				C33C63BA2067BCC2004D88B9 /* ViewController.swift in Sources */,
+				C33C63EB2067DCD0004D88B9 /* HeaderView.swift in Sources */,
+				C33C63DE2067C852004D88B9 /* UIImage+Helper.swift in Sources */,
+				C33C63DC2067C852004D88B9 /* NSMutableAttributedString+Helper.swift in Sources */,
+				C33C63DF2067C852004D88B9 /* UIImageView+Helper.swift in Sources */,
+				C33C63E12067C852004D88B9 /* UIApplication+Helper.swift in Sources */,
 				C33C63B82067BCC1004D88B9 /* AppDelegate.swift in Sources */,
+				C33C63CC2067C41E004D88B9 /* AlphabetView.swift in Sources */,
+				C33C63E52067C852004D88B9 /* NSAttributedString+Helper.swift in Sources */,
+				C33C63DB2067C852004D88B9 /* String+Helper.swift in Sources */,
+				C33C63E22067C852004D88B9 /* UIColor+Helper.swift in Sources */,
+				C33C63E72067D969004D88B9 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
